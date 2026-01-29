@@ -1,2 +1,11 @@
-# Auto detect text files and perform LF normalization
+# Auto detect text files and normalize line endings
 * text=auto
+
+# Ignore Makefile for language statistics
+Makefile linguist-vendored
+
+# Ignore common docs and config files for language stats
+*.md linguist-vendored
+*.txt linguist-vendored
+*.yml linguist-vendored
+*.json linguist-vendored
